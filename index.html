@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>MY Page</title>
+</head>
+
+<body>
+    <!-- HEADER AT TOP OF PAGE -->
+
+    <header id="head">
+        <h1>Welcome to my Page</h1>
+        <div class="quotes">
+           <i>Until death all defeat is psychological</i>
+            <br>
+            <button onclick="openNav()">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- side navigation menu -->
+        <div id="mySidenav" class="side-nav">
+            <button class="closebtn" onclick="closeNav()">close</button>
+            <a href="#education">Education</a>
+            <hr>
+            <a href="#hobbies">Hobbies</a>
+            <hr>
+            <a href="#achievements">Achievements</a>
+            <hr>
+            <a href="#projects">Projects</a>
+        </div>
+        <!-- PROFILE -->
+        <div id="profile">
+            <div class="profile-image">
+                <img src="profile_pic.jpg" />
+            </div>
+            <div id="prof-info">
+                <div class="profile-name">
+                    <h2>Varad Amol Pisale</h2>
+                </div>
+                <div class="profile-bio">
+                    I am from pune
+                </div>
+            </div>
+        </div>
+        <!-- TOP BUTTON -->
+         <div class="top-button">
+            <a href="#head">&uarr;</a>
+         </div>
+<!-- EDUCATION -->
+        <div id="education">
+            <h2>My Educational Journey</h2>
+            <div class="slideShow">
+                <div class="images fade">
+                    <div class="name">ALPHONSA HIGH SCHOOL</div>
+                    <img src="school/alphonsa.jpg" alt="alphonsa">
+                    <div class="pic-text">My First school till 3rd STD</div>
+                </div>
+                <div class="images fade">
+                    <div class="name">ALIPNE PUBLIC SCHOOL</div>
+                    <img src="school/alpine.jpg" alt="alpine">
+                    <div class="pic-text">Studied here from 4th to 7th STD</div>
+                </div>
+                <div class="images fade">
+                    <div class="name">K.E. BOARD CENTRAL SCHOOL</div>
+                    <img src="school/ke.jpeg" alt="ke">
+                    <div class="pic-text">Was here for my 8th STD</div>
+                </div>
+                <div class="images fade">
+                    <div class="name">B.T. MEMORIAL ENGLISH MEDIUM SCHOOL</div>
+                    <img src="school/bt.jpg" alt="bt">
+                    <div class="pic-text">Did my 10th boards and scored <b>91%</b></div>
+                </div>
+                <div class="images fade">
+                    <div class="name">PRATIBHA JUNIOR COLLEGE</div>
+                    <img src="school/pratibha.jpg" alt="pratibha">
+                    <div class="pic-text">Did my 12th Boards and scored <b>84.5%</b></div>
+                </div>
+                <div class="images fade">
+                    <div class="name">PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</div>
+                    <img src="school/pccoe.jpg" alt="pccoe">
+                    <div class="pic-text">Currently pursuing my <b>BTECH in Computer Engineering</b> form the <b>3rd
+                            Top</b> college in PUNE</div>
+                </div>
+                <div class="images fade">
+                    <div class="name">LAKSHYA ACADEMY</div>
+                    <img src="school/lakshyaaca.jpg" alt="pratibha">
+                    <div class="pic-text">My tuition for 10th, 12th boards and MHT-CET</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <p>This is not THE END. Education is a lifelong process of gaining knowledge and applying it at life.</p>
+        </div>
+        <!-- HOBBIES -->
+        <img src="dotted-line.png" alt="line">
+        <div id="hobbies">
+            <h2>Some of my Hobbies and Interests.</h2>
+            <ul>
+                <li id="reading">
+                    <h3>&#9672; Reading</h3>
+                    <img src="books.jpg" alt="books">
+                    <p>There are just some of the books which i have read and i have their hardcopies too. Many more are
+                        from libraries, ebooks from genre like self development to crime and thriller</p>
+                </li>
+                <li>
+                    <h3>&#9672; Sketches and Drawings</h3>
+                    <div class="slideShow-sketch">
+                        <div class="images-sketch fade">
+                            <img src="sketches/abstract.jpg" alt="abstract">
+                            <div class="sketch-text">ABSTRACT</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/candle.jpg" alt="candle">
+                            <div class="sketch-text">CANDLE</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/chariot.jpg" alt="candle">
+                            <div class="sketch-text">SHR KRISHNA GUIDING ARJUN AND HIS CHARIOT</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/chava.jpg" alt="candle">
+                            <div class="sketch-text">CHHATRAPATI SAMBHAJI MAHARAJ BATTLEING AN LION</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/grim.jpg" alt="candle">
+                            <div class="sketch-text">A GRIM REAPER</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/ranges.jpg" alt="candle">
+                            <div class="sketch-text">A RIVER FLOWING THROUGHT THE VALLEYS</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/ship.jpg" alt="candle">
+                            <div class="sketch-text">A SHIP IN A STORMY WEATHER</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/strange.jpg" alt="candle">
+                            <div class="sketch-text">DR. STEPHEN STRANGE</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/titan.jpg" alt="candle">
+                            <div class="sketch-text">TITAN, THE LAST BOSS IN SHADOW FIGHT 2</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/wolverine.jpg" alt="candle">
+                            <div class="sketch-text">WOLVERINE</div>
+                        </div>
+                        <div class="images-sketch fade">
+                            <img src="sketches/woods.jpg" alt="candle">
+                            <div class="sketch-text">A LOOK FROM THE WOODS</div>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev-sketch" onclick="plussketch(-1)">&#10094;</a>
+                        <a class="next-sketch" onclick="plussketch(1)">&#10095;</a>
+                    </div>
+                    <p>These are some of my sketches and drawings. I mostly do sketches which I can stop and resume
+                        whenever I want as per my time.</p>
+                </li>
+                <li>
+                    <h3>&#9672; Tinkering</h3>
+                    <div class="slideShow-tinker">
+                        <div class="images-tinker fade">
+                            <img src="tinkering/calender.jpg" alt="calender">
+                            <div class="tinker-text">A ROTATING CALENDER</div>
+                        </div>
+                        <div class="images-tinker fade">
+                            <img src="tinkering/mosquitobat.jpg" alt="BAT">
+                            <div class="tinker-text">REPLACED THE BATTERY OF MOSQUITO BAT WITH AN OLD MOBILE BATTERY
+                            </div>
+                        </div>
+                        <div class="images-tinker fade">
+                            <img src="tinkering/powerbank.jpg" alt="powerbank">
+                            <div class="tinker-text">A 3000mAh POWERBANK</div>
+                        </div>
+                        <div class="images-tinker fade">
+                            <img src="tinkering/insship.jpg" alt="INSSHIP">
+                            <div class="tinker-text">A MODEL OF INS VIKRAMADITYA MADE FROM ALUMINIUM</div>
+                        </div>
+                        <div class="images-tinker fade">
+                            <img src="tinkering/karambit.jpg" alt="karambit">
+                            <div class="tinker-text">VALORNT FOLDING KARAMBIT</div>
+                        </div>
+                        <div class="images-tinker fade">
+                            <img src="tinkering/lalten.jpg" alt="LALTEN">
+                            <div class="tinker-text">OLD THEMED LED LALTEN</div>
+                        </div>
+                        <div class="images-tinker fade">
+                            <video controls>
+                                <source src="tinkering/laltenvid.mp4" type="video/mp4">TAG NOT SUPPORTED
+                            </video>
+                            <div class="tinker-text">VIDEO OF THE LED LALTEN</div>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev-tinker" onclick="plustinker(-1)">&#10094;</a>
+                        <a class="next-tinker" onclick="plustinker(1)">&#10095;</a>
+                    </div>
+                    <p>These are few DIY projects which I did recently, many of the older ones have been misplaced or
+                        reused overtime.It develops my Problem Solving and JUGAADU skills.</p>
+                </li>
+                <li>
+                    <div id="cycle">
+                        <h3>&#9672; Cycling and Walking</h3>
+                        <img src="cycle.jpg" alt="cycle">
+                        <p>Cycling on my Gear cycle. It has 3 gears at front and 7 at back.I sometimes cycle to my
+                            college which is 7kms from my house.</p>
+                        <p>Walking is good for body. I walk a lot whenever I am travelling alone. An earphone in my ear
+                            listening to podcasts or songs, makes the walk more productive</p>
+                    </div>
+                </li>
+                <li>
+                    <div id="travelling">
+                        <h3>&#9672; Travelling</h3>
+                        <div class="travels">
+                            <video controls muted>
+                                <source src="travels/banglore.mp4" type="video/mp4">TAG NOT SUPPORTED
+                            </video>
+                            <div class="travels-text">VIDEO OF MY VISIT TO BANGLORE</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <img src="dotted-line.png" alt="line">
+        <!-- ACHIEVEMENTS -->
+        <div id="achievements">
+            <h2>A glimpse of my Achievements.</h2>
+            <div class="cet">
+                <img src="cet-score.jpg" alt="cet">
+            </div>
+        </div>
+        <img src="dotted-line.png" alt="line">
+        <!-- PROJECTS -->
+        <div id="projects">
+            <h2>Take a look at my Projects...</h2>
+            <div class="proj">
+                <h3>&#11162; Stone paper scissors</h3>
+                <a href="stone_paper_scissors/index.html" target="_blank">
+                    <img src="projects/sps.png" alt="stone-paper-scissors">
+                </a>
+                <p>Click on the image to open the browser game in a new tab and enjoy &#128126; </p>
+
+                <h3>&#11162; Tic Tac Toe</h3>
+                <a href="tictactoe-game/index.html" target="_blank">
+                    <img src="projects/tictt.png" alt="tic-tac-toe">
+                </a>
+                <p>Click on the image to open the browser game in a new tab and enjoy &#128126; </p>
+            </div>
+        </div>
+        <div id="career">
+            <h2>Journey of my Career...</h2>
+            Stone paper scissors
+        </div>
+    </main>
+    <script src="website.js"></script>
+</body>
+
+</html>

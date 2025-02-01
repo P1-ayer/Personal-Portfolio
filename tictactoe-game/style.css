@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F4D35E;
+    text-align: center;
+}
+
+
+
+.container{
+    height: 65vmin;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ .game{
+    padding-top: 1vh;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5vmin;
+}
+
+.box{
+   height: 18vmin;
+   width:18vmin;
+   background-color: #F95738;
+   color: #0D3B66;
+   border-radius: 1rem;
+   border: none;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+   font-size: 15vmin;
+}
+#reset{
+    padding: 1rem;
+    background-color:black ;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+#newGame{
+    padding: 1rem;
+    background-color:black ;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.Score{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2vh;
+}
+
+table, th, td {
+    border: 1px solid black; 
+    text-align: center; 
+    font-size: 2.5rem;
+  }
+
+td{
+    height: 10vmin;
+    width: 10vmin;
+}
